@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+@font-face {
+    font-family: Vazirmatn;
+    src: url(../fonts/webfonts/Vazirmatn-Light.woff2)
+  }
+  @font-face {
+    font-family: vazirmatnbold;
+    src: url(../fonts/webfonts/Vazirmatn-Bold.woff2);
+  }
+main header nav{
+    padding: 0px 166px;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    position: fixed;
+    z-index: 1;
+}
+main header nav ul{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main header nav ul li{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+main header nav ul li a{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: #3f3f3f;
+    font-family: Vazirmatn;
+    font-weight: 100;
+    font-size: 16px;
+}
+main .container {
+    width: 100%;
+    height: 63vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 90px;
+    
+}
+main .container .rightpart{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 240px 20px 20px;
+    background-color: #21aa58;
+}
+main .container .rightpart input[type=number]{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    padding: 10px;
+    width: 50%;
+
+}
+main .container .rightpart input[type=number]::placeholder{
+    color:#dddddd;
+}
+main .container .rightpart .registeration div{
+    display: inline-block;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background: #ebebeb;
+    position: relative;
+    left: 35px;
+    top: 15px;
+}
+main .container .rightpart .registeration button{
+    width: 117px;
+    height: 40px;
+    background-color: #fff;
+    color: #21aa58;
+    border-radius: 5px;
+    border: none;
+    font-family: Vazirimatn;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+main .container .rightpart .registeration button span{
+    font-family: vazirmatnbold;
+    font-size: 14px;
+}
+main .container .rightpart .registeration{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 5px;
+}
+main .container .rightpart h1{
+    font-size: 35px;
+    font-family: vazirmatnbold;
+    color: #fff;
+}
+main .container .rightpart p{
+    font-size: 20.3px;
+    font-family: vazirmatn;
+    color: #fff;
+}
+main .container .rightpart button{
+    width: 235px;
+    height: 48px;
+    border-radius: 7px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    font-size: 17px;
+    font-family: vazirmatnbold;
+    color: #fff;
+    margin-bottom: 5px;
+}
+main .container .leftpart{
+    background-image: url(../images/intro_desktop.jpg);
+    width:50.5%;
+    height: 100%;
+    transform: scaleX(-1);
+    /* background-position: -500px 0; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main .download-box{
+    width:100%;
+    justify-content:center ;
+    display: flex;
+    justify-content:space-evenly;
+}
+main .download-box img{
+    width: 160px;
+    position: relative;
+    top: 22vh;
+}
+main .super-app{
+    width: 100%;
+    background-color: #f2f5f8;
+    position: relative;
+    top: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    padding: 20px;
+}
+main .super-app h2{
+    color: #404040;
+    font-size: 36px;
+    font-family: vazirmatnbold;
+}
+main .super-app .cards-container{
+    width: 67%;
+    min-height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+main .super-app .cards-container .cards{
+    width: 292px;
+    height: 90px;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    padding: 8px;
+    gap: 10px;
+    border-radius: 10px;
+}
+main .super-app .cards-container .cards h3{
+    color: #3f3f3f;
+    font-size: 16px;
+    font-family: vazirmatn;
+
+}
+main .super-app .cards-container .cards p{
+    font-size: 14px;
+    color: #a3a3a3;
+    font-family: vazirmatn;
+}
