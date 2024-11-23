@@ -33,6 +33,9 @@ main header nav{
     position: fixed;
     z-index: 1;
 }
+main header nav .mobile-nav{
+    display: none;
+}
 main header nav ul{
     width: 70%;
     height: 100%;

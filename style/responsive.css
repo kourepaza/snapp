@@ -1,0 +1,102 @@
+@media only screen and (max-width:400px){
+    main header nav{
+        height: 70px;
+        display: flex;
+    }
+    main header .desktop-nav{
+        display: none;
+    }
+    main header nav .mobile-nav{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 170px;
+    }
+    main header nav .mobile-nav li i{
+        display: flex;
+        
+
+    }
+    main header nav .mobile-nav li{
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+    main .container{
+    position: relative;
+    top: 50px;
+    }
+    main .container .rightpart{
+        display: flex;
+        align-items: center;
+        width: 130vw;
+        height: 90%;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0 10px;
+    }
+    main .container .rightpart h1{
+        width: 95%;
+        font-size: 26px;
+        text-align: right;
+    }
+    main .container .rightpart p{
+        font-size: 20px;
+        text-align: justify;
+    }
+    main .container .rightpart .registeration{
+        display: none;
+    }
+    main .container .rightpart button{
+        width: 235px;
+        height: 48px;
+        border-radius: 7px;
+        background-color: #fff;
+        font-size: 17px;
+        font-family: vazirmatnbold;
+        color:black;
+    }
+    main .container .leftpart{
+        display: none;
+    }
+    main .download-box{
+        display: none;
+    }
+    main .super-app{
+        width: 100%;
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        
+    }
+    main .super-app h2{
+        font-size: 22px;
+        padding-top: 40px;
+    }
+    main .super-app .cards-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    main .super-app .cards-container .cards{
+        width: 78px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8px;
+        border-radius: 20px;
+    }
+    main .super-app .cards-container .cards h3{
+        font-size: 14px;
+        text-align: center;
+    }
+    main .super-app .cards-container .cards p{
+        display: none;
+    }
+}
